@@ -766,4 +766,12 @@ TEST DATA:
 ///////////////////////////////////////
 // Non-Destructive Alternatives: toReversed, toSorted, toSpliced, with
 
+// toReversed
 console.log(movements);
+const reversedMov = movements.toReversed();
+console.log(reversedMov);
+
+// toSorted (sort), toSpliced (splice)
+
+
+
