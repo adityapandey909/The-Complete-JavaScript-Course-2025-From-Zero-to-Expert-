@@ -4,10 +4,20 @@
   "description": "Recipe application",
   "license": "ISC",
   "author": "Aditya Pandey",
-  "type": "commonjs",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "fractional": "^1.0.0",
+    "parcel": "^2.16.4",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "fraction.js": "^5.3.4",
+    "regenerator-runtime": "^0.14.1"
   }
 }
